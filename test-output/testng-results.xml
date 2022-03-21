@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18640" started-at="2022-03-21T11:15:12Z" finished-at="2022-03-21T11:15:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18640" started-at="2022-03-21T11:15:12Z" finished-at="2022-03-21T11:15:31Z">
+      <class name="ibm.rtl.sntbdjj">
+        <test-method status="PASS" signature="createUser(org.testng.ITestContext)[pri:0, instance:ibm.rtl.sntbdjj@dfd3711]" name="createUser" duration-ms="10448" started-at="2022-03-21T16:45:12Z" finished-at="2022-03-21T16:45:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@643b1d11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:ibm.rtl.sntbdjj@dfd3711]" name="login" duration-ms="1920" started-at="2022-03-21T16:45:23Z" depends-on-methods="ibm.rtl.sntbdjj.createUser" finished-at="2022-03-21T16:45:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="edit(org.testng.ITestContext)[pri:0, instance:ibm.rtl.sntbdjj@dfd3711]" name="edit" duration-ms="2047" started-at="2022-03-21T16:45:24Z" depends-on-methods="ibm.rtl.sntbdjj.login" finished-at="2022-03-21T16:45:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@643b1d11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edit -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:ibm.rtl.sntbdjj@dfd3711]" name="logout" duration-ms="1883" started-at="2022-03-21T16:45:27Z" depends-on-methods="ibm.rtl.sntbdjj.edit" finished-at="2022-03-21T16:45:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="delete(org.testng.ITestContext)[pri:0, instance:ibm.rtl.sntbdjj@dfd3711]" name="delete" duration-ms="2267" started-at="2022-03-21T16:45:28Z" depends-on-methods="ibm.rtl.sntbdjj.logout" finished-at="2022-03-21T16:45:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@643b1d11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+      </class> <!-- ibm.rtl.sntbdjj -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

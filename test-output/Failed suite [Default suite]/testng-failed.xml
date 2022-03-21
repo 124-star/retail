@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Default suite]]">
+  <test name="Default test(failed)(failed)">
+    <classes>
+      <class name="ibm.rtl.rtl1">
+        <methods>
+          <include name="select_model"/>
+          <include name="select_product"/>
+          <include name="select_total"/>
+          <include name="login"/>
+          <include name="select_customer_name"/>
+          <include name="select_mail_option"/>
+          <include name="select_order_id"/>
+          <include name="select_return_id"/>
+        </methods>
+      </class> <!-- ibm.rtl.rtl1 -->
+    </classes>
+  </test> <!-- Default test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Default suite]] -->
